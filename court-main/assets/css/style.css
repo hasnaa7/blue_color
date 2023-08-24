@@ -64,7 +64,7 @@ h6 {
 .main22 .overlay-form22 {
   background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
   margin-top: 200px;
-  width: 700%;
+  width: 50%;
   top: 50%;
   opacity: 0.9;
   z-index: 2;
@@ -79,9 +79,12 @@ h6 {
   
 
 }
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .main22 .overlay-form22  {
-    margin-top: 400px;
+    margin-top: 700px !important;
+  }
+  .main22 .overlay-form22 {
+    width: 90%;
   }
 }
 
